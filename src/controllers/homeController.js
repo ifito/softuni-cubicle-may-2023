@@ -11,8 +11,10 @@ router.get('/about', (req, res) => {
     res.render('about');
 });
 
-router.get('/:cubeId/details', (req, res) => {
-    res.render('details');
+router.get('/404', (req, res) => {
+    res.render('404');
 });
+
+
 
 module.exports = router;
