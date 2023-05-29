@@ -28,7 +28,7 @@ exports.getAll = (search, from, to) => {
     }
 
     if (to) {
-        result = result.filter(cube => cube.difficultyLevel <= Number(to));
+        result = result.filter(cube => cube.difficultyLevel <= Number(to)); 
     }
 
     return result;
